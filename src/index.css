@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Syne', sans-serif;
+    --font-sans: 'Plus Jakarta Sans', sans-serif;
+    --font-editorial: 'Bebas Neue', sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #09090b;
+    color: #f4f4f5;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+  }
+
+  .font-editorial {
+    font-family: var(--font-editorial);
+    letter-spacing: 0.05em;
+  }
+}
+
+/* Custom subtle dark luxury ambient glows */
+.dark-glow {
+  background: radial-gradient(circle at 50% 0%, rgba(234, 88, 12, 0.08) 0%, rgba(9, 9, 11, 0) 70%);
+}
+
+.burgundy-glow {
+  background: radial-gradient(circle at 80% 50%, rgba(131, 24, 67, 0.08) 0%, rgba(9, 9, 11, 0) 65%);
+}
+
+/* Smooth custom scrollbars */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #09090b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3f3f46;
+}
+
+/* Clean image overlay gradients */
+.media-scrim {
+  background: linear-gradient(180deg, rgba(9,9,11,0.2) 0%, rgba(9,9,11,0.6) 60%, rgba(9,9,11,0.95) 100%);
+}

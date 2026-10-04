@@ -1,0 +1,6 @@
+{
+  "name": "Louis Burger – Sohna Road, Gurugram",
+  "description": "Artisanal gourmet burgers at Eros City Square, Sohna Road, Gurugram. Crafted with cloud-light milk-washed buns, mature English cheddar, and signature 11mm skin-on fries.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
